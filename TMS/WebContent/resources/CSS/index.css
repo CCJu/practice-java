@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{
+	list-style: none;
+	margin:0; 
+	padding:0; 
+	border:0;
+}
+body{
+	background-image: url("../Image/timg-5.jpeg");
+	background-repeat: no-repeat;
+
+}
+.mainPanel{
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+ul{
+}
+li{
+	margin: 10px;
+	border: 2px solid #0072E3;
+	border-radius: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+	width: 200px;
+	line-height: 80px;
+}
+li:hover{
+	background-color: #46A3FF;
+}
+a{
+	font-size: 20px;
+	text-decoration:none;
+}
